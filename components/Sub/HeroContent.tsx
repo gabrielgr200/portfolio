@@ -8,7 +8,7 @@ import { SparklesIcon } from '@heroicons/react/24/solid';
 
 function HeroContent() {
   return (
-    <motion.div initial='hidden' animate='visible' className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'>
+    <motion.div id='about-me' initial='hidden' animate='visible' className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'>
       <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
         <motion.div className='Welcome-box py-[8px] px-[7px] border border-[#42e3f88b] opacity-[0.9]' variants={slideInFromTop}>
           <SparklesIcon className='text-[#9be8ff] mr-[10px] h-5 w-5' />
@@ -25,10 +25,6 @@ function HeroContent() {
           conhecimentos tanto em desenvolvimento quanto em desing. Possuo uma sólida experiência em ambas as áreas
           e estou ansioso para contribuir de forma significativa em um novo desafio.
         </motion.p>
-
-        <motion.a variants={slideInFromLeft(1)} className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
-          Contato
-        </motion.a>
       </div>
 
       <motion.div variants={slideInFromRight(0.8)} className='w-full h-full flex justify-center items-center'>
