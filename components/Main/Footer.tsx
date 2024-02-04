@@ -18,19 +18,19 @@ const Footer = () => {
                         <div className="font-bold text-[16px]">Links Dos Sites</div>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxGlobe />
-                            <a href="#">
+                            <a href="https://ggcoffee.vercel.app/">
                                 <span className="text-[15px] ml-[6px]">Coffee</span>
                             </a>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxGlobe />
-                            <a href="#">
+                            <a href="https://lexicorm.vercel.app/">
                                 <span className="text-[15px] ml-[6px]">Lexicorm</span>
                             </a>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxGlobe />
-                            <a href="#">
+                            <a href="https://leirbaggr-shop.vercel.app/">
                                 <span className="text-[15px] ml-[6px]">LeirbaggrShop</span>
                             </a>
                         </p>
