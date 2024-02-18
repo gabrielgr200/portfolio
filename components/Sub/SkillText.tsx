@@ -24,7 +24,7 @@ const SkillText = () => {
                 variants={slideInFromRight(0.5)}
                 className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
             >
-                O que desenvolvi quando estudei no Senac Minas.
+                Essas são algumas das minhas habilidades
             </motion.div>
         </div>
     )

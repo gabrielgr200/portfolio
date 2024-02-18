@@ -32,15 +32,15 @@ const Projects = () => {
             <div className='h-full w-full flex flex-col mt-5 md:flex-row gap-10 px-10'>
 
                 <ProjectsCard
-                    src='/Home.png'
-                    title='Nike'
-                    description='Esse é um projeto feito no figma, um protótipo do site da Nike para fins de estudos da plataforma.'
+                    src='/mentimeter.png'
+                    title='Mentimeter'
+                    description='Esse é um projeto desenvolvido nas aulas da Rocketseat. Que tem como objetivo permitir que os usuários criem salas e respondem as perguntas.'
                 />
 
                 <ProjectsCard
-                    src='/Cart.png'
-                    title='Nike | Carrinho'
-                    description='Esse é um projeto feito no figma, um protótipo do site da Nike para fins de estudos da plataforma.'
+                    src='/portfolio.png'
+                    title='Portfólio - Lexicorm'
+                    description='Esse é um projeto da Lexicorm, um simples portfolio para contar um pouco sobre a empresa, sobre a equipe de desenvolvimento.'
                 />
 
                 <ProjectsCard
