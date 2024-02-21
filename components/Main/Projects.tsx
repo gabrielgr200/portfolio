@@ -54,9 +54,9 @@ const Projects = () => {
             <div className='h-full w-full flex flex-col mt-5 md:flex-row gap-10 px-10'>
 
                 <ProjectsCard
-                    src='/Details.png'
-                    title='Air Max'
-                    description='Uma landing page para vendas dos tênis da Nike, layout inspirado nos estilos da Nike totalmente otimizado para computadores.'
+                    src='/github.png'
+                    title='Clone do Github'
+                    description='Esse projeto é um clone do GitHub na sua versão antiga, um projeto feito para aprimorar minhas habilidades no front-end.'
                 />
 
                 <ProjectsCard
